@@ -10,10 +10,9 @@ import DISC
 
 # mobie = 'MOBIE.html'
 # fdrp1 = 'STR_FDRP1.html'
-fdrp2 = 'STR_FDRP2.html'
-m1cs = 'CR173_M1CS.html'
 
 # DISC.get_discussion(mobie, 'mobie.xlsx')
 # DISC.get_discussion(fdrp1, 'fdrp1.xlsx')
-DISC.get_discussion(fdrp2, 'fdrp2.xlsx')
-DISC.get_discussion(m1cs, 'm1cs.xlsx')
+# DISC.get_discussion('CR173_M1CS.html', 'm1cs.xlsx')
+
+DISC.get_discussion('STR_FDRP2.html', 'fdrp2.xlsx')
