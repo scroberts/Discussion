@@ -1,3 +1,5 @@
 # ignore generated html files,
 *.html
 *.xlsx
+__pycache__
+*.swp
