@@ -10,11 +10,11 @@ import config as cf
 # Locations
 url = 'https://docushare.tmt.org/docushare/dsweb/View/BulletinBoard-302?init=true'
 htmlfile = 'STR_FDRP2.html'
-xlsfile = 'fdrp2.xlsx'
+xlsfile = 'FDRP2 Review Comments.xlsx'
 
 # Call get_discussion
 # The htmlfile will be stored in the dccfilepath directory and the
 # xlsfile will be stored in the current directory
 
-DISC.get_discussion(url, htmlfile, xlsfile)
+DISC.get_discussion_rowcol(url, htmlfile, xlsfile, 4, 1)
 
