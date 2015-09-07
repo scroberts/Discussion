@@ -3,7 +3,7 @@
 # My modules
 import DCC
 import DISC
-import config as cf
+import Config as CF
 
 # URLS 
 # First go to DCC and save discussion as .html local file

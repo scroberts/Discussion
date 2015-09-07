@@ -10,7 +10,7 @@ from openpyxl.worksheet.datavalidation import DataValidation, ValidationType
 from datetime import datetime
 
 # My modules
-import config as cf
+import Config as CF
 
 def dataval_any(ws, range):
     # Create a data-validation object with list validation
